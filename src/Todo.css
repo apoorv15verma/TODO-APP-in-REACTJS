@@ -1,0 +1,127 @@
+
+
+body{background-color:  rgb(145, 253, 145);}
+*{
+    transition: 1s;
+}
+
+.container{
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+width: 20rem;
+
+margin: 10rem auto 2rem;
+padding: 3rem;
+display: flex;
+flex-direction: column;
+background-color:rgb(0, 248, 0) ;
+border-radius: 2rem;
+border: none;
+}
+
+.header{
+    text-align: center;
+    background-color: rgb(77, 251, 77);
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.header h2{
+    font-size: 3rem;
+color: azure;
+
+}
+
+.body{
+    margin: 2rem 0;
+
+}
+
+.body input{
+    width: 18rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: none;
+    text-align: center;
+    font-size:1.2rem;
+    
+
+}
+
+.body button{
+height: 2rem;
+border-radius: 1rem;
+color: red;
+font-weight: bold;
+border: none;
+margin-top: 1rem ;
+margin-left: 6rem;
+padding-left: 1rem;
+padding-right: 1rem;
+font-size: 1rem;
+background-color: azure;
+}
+
+.body button:hover{
+    color: azure;
+    background-color: red;
+}
+
+
+
+
+/* show todo */
+
+.list-container1{
+display:flex;
+flex-direction:row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+.list-container{
+    background-color: rgb(0, 248, 0) ;
+width: 20rem;
+display: flex;
+flex-direction:column;
+margin: 1rem ;
+border-radius: 1rem;
+color: azure;
+font-size:2rem;
+font-weight: bold;
+padding: 1rem;
+
+}
+
+.list-container .list-task{
+   word-wrap: break-word;
+}
+
+
+
+
+.list-container button{
+    height: 2rem;
+border-radius: 1rem;
+color: red;
+font-weight: bold;
+border: none;
+margin-top: 1rem ;
+margin-left: 8.5rem;
+
+padding-left: 1rem;
+padding-right: 1rem;
+font-size: 1rem;
+background-color: azure;
+
+
+
+}
+
+.list-container button:hover{
+    color: azure;
+    background-color: red;
+}
